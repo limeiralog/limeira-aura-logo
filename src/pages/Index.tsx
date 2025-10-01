@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "@/assets/limeira-log-logo-v2.png";
+import logo from "@/assets/limeira-log-logo-v3.png";
 import { Download, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
@@ -37,7 +37,7 @@ const Index = () => {
             LIMEIRA LOG
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Financial advisory and logistics solutions. Strategic partnership for comprehensive services.
+            Your central hub for logistics, finance, and business growth solutions.
           </p>
         </div>
 
@@ -143,27 +143,31 @@ const Index = () => {
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Modern balanced aesthetic</span>
+                  <span>Abstract modern innovative design</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Subtle 3D depth elements</span>
+                  <span>Subtle 3D depth with gradients</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Growth chart graphics integrated</span>
+                  <span>Fluid geometric interconnection</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Stylized handshake symbolism</span>
+                  <span>Central hub symbolism</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Interconnection symbols</span>
+                  <span>Data flow representation</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Elegant professional typography</span>
+                  <span>Clean futuristic typography</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary mt-1">•</span>
+                  <span>Highly versatile and memorable</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
@@ -177,31 +181,34 @@ const Index = () => {
         {/* Brand Values */}
         <div className="max-w-4xl mx-auto mt-12 text-center">
           <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-2xl p-8 border border-primary/20">
-            <h3 className="text-2xl font-semibold mb-4 text-foreground">Brand Values & Services</h3>
+            <h3 className="text-2xl font-semibold mb-4 text-foreground">Core Solutions & Values</h3>
             <div className="flex flex-wrap justify-center gap-4 text-muted-foreground">
               <span className="px-4 py-2 bg-card rounded-full text-sm font-medium shadow-sm">
-                Financial Advisory
+                Solutions Hub
+              </span>
+              <span className="px-4 py-2 bg-card rounded-full text-sm font-medium shadow-sm">
+                Logistics
               </span>
               <span className="px-4 py-2 bg-card rounded-full text-sm font-medium shadow-sm">
                 Currency Exchange
               </span>
               <span className="px-4 py-2 bg-card rounded-full text-sm font-medium shadow-sm">
-                Strategic Partnership
+                Financial Services
               </span>
               <span className="px-4 py-2 bg-card rounded-full text-sm font-medium shadow-sm">
-                Security
+                Business Advisory
               </span>
               <span className="px-4 py-2 bg-card rounded-full text-sm font-medium shadow-sm">
-                Intelligence
+                Growth Acceleration
               </span>
               <span className="px-4 py-2 bg-card rounded-full text-sm font-medium shadow-sm">
-                Professional Support
+                Memorability
               </span>
               <span className="px-4 py-2 bg-card rounded-full text-sm font-medium shadow-sm">
-                Comprehensive Services
+                Versatility
               </span>
               <span className="px-4 py-2 bg-card rounded-full text-sm font-medium shadow-sm">
-                Logistics Solutions
+                Innovation
               </span>
             </div>
           </div>
